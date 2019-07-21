@@ -7,12 +7,12 @@ h1 {
 	text-align: center;
 	font-family: "Comic Sans MS";
 	font-size: 40px;
-
 }
 
 #page {
 	margin: 0 auto;
 	max-width: 800px;
+	position: relative;
 }
 body{
 	font-family: "arial";
@@ -22,4 +22,20 @@ form{
 	border: 3px dashed red;
 	margin-top: 5px;
 	padding-left: 200px;
+}
+
+#VOLCANETWAN {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	transform: rotate(0deg);
+}
+
+#VOLCANETWAN.YO {
+	display: block;
+	margin: 0 auto;
+	transition: width 1s, transform 3s, filter 3s, padding 3s;
+	width: 600px;
+	transform: rotate(360deg);
+
 }
