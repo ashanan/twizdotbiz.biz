@@ -1,0 +1,20 @@
+html, body {
+	width: 100%;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 40px;
+
+}
+
+#page {
+	margin: 0 auto;
+	max-width: 800px;
+}
+body{
+	font-family: "arial";
+	color: blue;
+}
