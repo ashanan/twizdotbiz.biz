@@ -18,3 +18,8 @@ body{
 	font-family: "arial";
 	color: blue;
 }
+form{
+	border: 3px dashed red;
+	margin-top: 5px;
+	padding-left: 200px;
+}
