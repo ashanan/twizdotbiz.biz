@@ -7,6 +7,11 @@ h1 {
 	text-align: center;
 	font-family: "Comic Sans MS";
 	font-size: 40px;
+	background-color: blue;
+}
+h4{
+	font-family: "Comic Sans MS";
+	font-size: 50px;
 }
 
 #page {
@@ -17,11 +22,27 @@ h1 {
 body{
 	font-family: "arial";
 	color: blue;
+	background-image: url("stars.gif");
+	background-size: 1000;
 }
 form{
 	border: 3px dashed red;
-	margin-top: 5px;
+	margin-top: 150px;
 	padding-left: 200px;
+	background-color: white;
+	margin-bottom: 150px;
+}
+li{
+	font-size: 25px;
+}
+img{
+	margin-bottom: 40px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
 }
 
 #VOLCANETWAN {
