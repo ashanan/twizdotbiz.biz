@@ -72,6 +72,11 @@ img{
 
 }
 
+#arrow{
+    height: 50px;
+    margin-bottom: 0px;
+}
+
 /* Gallery */
 #gallery img{
 	width:350px;

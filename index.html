@@ -4,6 +4,11 @@
 		<link rel="stylesheet" type="text/css" href="twiz.css">
 	</head>
 	<body>
+		<audio controls  autoplay id="jeffrum" loop>
+		 	<source src="tWiZdOtBiZ.biz music 07212019 Jeffrey Levin.mp3">
+		    Your broswer hates the 90s
+		</audio>
+		<img id="arrow" src="arrow-to-the-left-3.png">
 		<div id="page">
 			<h1 id="BIZ">TWIZDOTBIZ.BIZ</h1>
 			<img id="VOLCANETWAN" src="volcanetwan.jpg">
@@ -45,7 +50,11 @@
 				document.getElementById("VOLCANETWAN").classList.add("YO")
 			}, 1000)
 
-			ya(0)
+			ya(0);
+
+			var jeff = document.getElementById('jeffrum');
+			console.log(jeff)
+			jeff.play();
 			
 		</script>
 	</body>
