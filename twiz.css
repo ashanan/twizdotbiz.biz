@@ -60,3 +60,8 @@ img{
 	transform: rotate(360deg);
 
 }
+
+/* Gallery */
+#gallery img{
+	width:350px;
+}

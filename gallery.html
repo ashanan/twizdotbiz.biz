@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>TWIZdotBIZ</title>
+		<link rel="stylesheet" type="text/css" href="twiz.css">
+	</head>
+	<body>
+		<a href="/">Home</a>
+		<div id="gallery">
+			<h1 id="BIZ">Twiz Through Twime</h1>
+			<img src="the last twan.jpg" class="center">
+			<img src="migrant twan.jpg" class="center">
+			<img src="stock twan.jpg" class="center">
+			<img src="powerpuff twan.jpg" class="center">
+			<img src="construction.gif" class="center">
+		</div>
+	</body>
+	<script>
+		var colors =["#6e40aa", "#be3caf", "#fe4b83", "#ff7747", "#e3b62f", "#b0ef5a", "#53f666", "#1edfa2", "#23acd8", "#4c6fdc", "#4c6fdc"]
+		function ya(i) {
+			i = (i+1) % colors.length
+			document.getElementById("BIZ").style.color = colors[i]
+			setTimeout(function() { ya(i) }, 30)
+		}
+
+		setTimeout(function() {
+			document.getElementById("VOLCANETWAN").classList.add("YO")
+		}, 1000)
+
+		ya(0)
+		
+	</script>
+</html>
